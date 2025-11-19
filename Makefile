@@ -1,14 +1,21 @@
+SHELL := /bin/bash
+UV := /Users/graphplaying/.local/bin/uv
+
 install:
-	uv sync
+	$(UV) sync
 
 brain-games:
-	uv run brain-games
+	$(UV) run brain-games
 
 build:
-	uv build
+	$(UV) build
 
 package-install:
-	uv tool install dist/hexlet_code-0.1.0-py3-none-any.whl
+	$(UV) tool install dist/hexlet_code-0.1.0-py3-none-any.whl
 
-make lint:
-	uv run ruff check brain_games
+# было "make lint:" — это неверное имя цели
+lint:
+	$(UV) run ruff check brain_games
+
+brain-even:
+	$(UV) run brain-even
