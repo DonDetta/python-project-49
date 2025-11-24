@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -21,3 +23,4 @@ dev = [
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"

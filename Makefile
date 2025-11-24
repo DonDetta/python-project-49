@@ -19,3 +19,6 @@ lint:
 
 brain-even:
 	$(UV) run brain-even
+
+brain-calc:
+	$(UV) run brain-calc
