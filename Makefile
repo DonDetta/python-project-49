@@ -25,3 +25,6 @@ brain-calc:
 
 brain-gcd:
 	$(UV) run brain-gcd
+
+brain-progression:
+	$(UV) run brain-progression
