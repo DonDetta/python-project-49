@@ -22,3 +22,6 @@ brain-even:
 
 brain-calc:
 	$(UV) run brain-calc
+
+brain-gcd:
+	$(UV) run brain-gcd
