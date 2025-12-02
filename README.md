@@ -49,6 +49,7 @@ uv sync
 
 # или, если используется poetry
 # poetry install
+```
 
 
 ### Demo
