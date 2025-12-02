@@ -13,7 +13,6 @@ build:
 package-install:
 	$(UV) tool install dist/hexlet_code-0.1.0-py3-none-any.whl
 
-# было "make lint:" — это неверное имя цели
 lint:
 	$(UV) run ruff check brain_games
 
@@ -28,3 +27,6 @@ brain-gcd:
 
 brain-progression:
 	$(UV) run brain-progression
+
+brain-prime:
+	$(UV) run brain-prime

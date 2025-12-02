@@ -16,7 +16,6 @@ def generate_round():
         case '*':
             result = number1 * number2
         case _:
-            # на всякий случай, но до сюда мы не дойдём
             raise ValueError(f'Unknown operation: {operation}')
 
     question = f'{number1} {operation} {number2}'
