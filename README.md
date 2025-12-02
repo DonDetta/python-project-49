@@ -44,9 +44,6 @@ cd python-project-49
 
 # установка зависимостей
 uv sync
-
-# или, если используется poetry
-# poetry install
 ```
 
 
