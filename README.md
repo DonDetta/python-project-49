@@ -39,7 +39,7 @@
 Пример (если используется `uv`, как в Makefile):
 
 ```bash
-git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
+git clone https://github.com/DonDetta/python-project-49.git
 cd python-project-49
 
 # установка зависимостей
