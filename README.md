@@ -10,7 +10,7 @@
 ### Demo progression
 [![asciicast](https://asciinema.org/a/jjI9TdwiUWFqB0cqZwNHbKTzI.svg)](https://asciinema.org/a/jjI9TdwiUWFqB0cqZwNHbKTzI)
 
-### Demo progression
+### Demo prime
 [![asciicast](https://asciinema.org/a/l0kEmyICfA8zm0eZHm5Llfgxz.svg)](https://asciinema.org/a/l0kEmyICfA8zm0eZHm5Llfgxz)
 
 ### Hexlet tests and linter status:
